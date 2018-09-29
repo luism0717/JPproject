@@ -1,3 +1,12 @@
+/*
+ *
+ * Luis Mendez
+ * Item.java
+ * 9/29/2018
+ *
+ */
+
+
 package sample;
 
 import java.util.Date;
