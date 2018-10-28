@@ -11,9 +11,21 @@
 
 package sample;
 
-//Create an enum called ItemType
 public enum ItemType {
 
-  AU, VI, AM, VM;
+  //store the following information
+  AUDIO("AU"),
+  VISUAL("VI"),
+  AUDIO_MOBILE("AM"),
+  VISUAL_MOBILE("VM");
 
+  public final String code;
+
+  ItemType(String code) {
+    this.code = code;
+  }
+
+  private String getCode() {
+    return code;
+  }
 }
