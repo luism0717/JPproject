@@ -1,5 +1,9 @@
 package sample;
 
+// Step 6
+// Create a driver class for AudioPlayer that will test to see whether we can
+// instantiate occurrences of it, use the media controls
+// and print out their details to the console.
 public class AudioPlayerDriver {
 
   public static void testAudioPlayer() {

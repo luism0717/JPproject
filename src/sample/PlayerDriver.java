@@ -2,6 +2,11 @@ package sample;
 
 public class PlayerDriver {
 
+
+  //Step 13
+  // Create a driver class that will demonstrate that any class that implements the
+  // MultimediaControl Interface would be able to be instantiated and use its
+  // methods used no matter if it was an audio or movie player.
   public static void testPlayer() {
     MultimediaControl moviePlayer = new MoviePlayer("DBPOWER MK101",
         new Screen("720x480", 40, 22),

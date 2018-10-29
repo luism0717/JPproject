@@ -13,6 +13,8 @@ package sample;
 
 import java.util.Date;
 
+// Step 1
+// Create an interface called Itemthat will force all classes to implement the following functions.
 public interface Item {
 
 
@@ -29,7 +31,7 @@ public interface Item {
   String getName();
 
   //A method getManufactureDate that would return a Date
-  Date  getManufactureDate();
+  Date getManufactureDate();
 
   // A method getSerialNumber that would return an int
   int getSerialNumber(int s);

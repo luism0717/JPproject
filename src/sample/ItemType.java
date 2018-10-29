@@ -11,6 +11,9 @@
 
 package sample;
 
+// All items will have a pre-set type.
+// Currently there are 4 types.
+// Create an enum called ItemType.
 public enum ItemType {
 
   //store the following information

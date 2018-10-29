@@ -1,5 +1,8 @@
 package sample;
 
+// Step 8:
+// Create an interface called ScreenSpec.
+// This will define 3 methods:
 public interface ScreenSpec {
 
   public String getResolution();
