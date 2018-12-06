@@ -32,6 +32,22 @@ public class Main {
     Collections.sort(products);
     // Call the print method on the ArrayList
     print(products);
+
+    // Step 19
+    System.out.println("Test Employee Department ID");
+    EmployeeInfo employee = new EmployeeInfo();
+    System.out.println(employee.toString());
+
+    Main myMain = new Main();
+    System.out.println(myMain.reverseString("Abcd12"));
+  }
+
+  // Step 20
+  public String reverseString(String id) {
+    // Paste the code for your reverseString method here.
+    StringBuilder s = new StringBuilder(id);
+    s = s.reverse();
+    return s.toString();
   }
 
 
